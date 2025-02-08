@@ -14,7 +14,6 @@
   </header>
 
   <div id="ramen-menu">
-    <!-- Images will be dynamically added here -->
   </div>
 
   <div id="ramen-detail">
@@ -32,6 +31,7 @@
     Insert comment here
   </p>
 
+  <!-- Add New Ramen Form -->
   <form id="new-ramen">
     <h4>Add New Ramen</h4>
     <label for="new-name">Name: </label>
@@ -43,10 +43,19 @@
     <label for="new-rating">Rating: </label>
     <input type="number" name="rating" id="new-rating" />
     <label for="new-comment">Comment: </label>
-    <textarea name="comment" id="new-comment"></textarea>
+    <textarea name="new-comment" id="new-comment"></textarea>
     <input type="submit" id='submit-button' value="Create" />
   </form>
 
+  <!-- Edit Featured Ramen Form -->
+  <form id="edit-ramen">
+    <h4>Update the Featured Ramen</h4>
+    <label for="rating">Rating: </label>
+    <input type="number" name="rating" id="edit-rating" />
+    <label for="new-comment">Comment: </label>
+    <textarea name="new-comment" id="edit-comment"></textarea>
+    <input type="submit" value="Update" />
+  </form>
 </body>
 
 </html>
